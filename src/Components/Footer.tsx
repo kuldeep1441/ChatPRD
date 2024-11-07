@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
 
   return (
     <div className="fixed bottom-4 w-full flex items-center justify-center text-gray-500">
-      <div className="flex items-center space-x-2 w-1/2 border border-gray-300 rounded-lg p-2 bg-white shadow-md">
+      <div className="flex items-center space-x-2 w-3/5 border border-gray-300 rounded-lg p-2 bg-white shadow-md">
         {/* Attachment Icon */}
         <label htmlFor="file-input" className="cursor-pointer">
           <PaperClipIcon className="h-6 w-6 text-gray-500" />
